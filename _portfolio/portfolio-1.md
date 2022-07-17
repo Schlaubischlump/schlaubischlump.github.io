@@ -1,6 +1,6 @@
 ---
 title: "LocationSimulator"
-excerpt: "MacOS application to spoof / fake / mock your iOS / iPadOS or iPhoneSimulator device location. WatchOS and TvOS are partially supported.<br/><img style='width: 500px;' src='https://repository-images.githubusercontent.com/205137861/4db93e80-58db-11eb-9027-d1939077fd4e'>"
+excerpt: "MacOS application to spoof / fake / mock your iOS / iPadOS or iPhoneSimulator device location. WatchOS and TvOS are partially supported.<br/><img style='width: 500px;' src='https://raw.githubusercontent.com/Schlaubischlump/LocationSimulator/master/Preview/screenshot.png'>"
 collection: portfolio
 ---
 
