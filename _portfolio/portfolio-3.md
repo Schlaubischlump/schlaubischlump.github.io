@@ -18,8 +18,6 @@ This application is only useful if you study or work at the Johannes Gutenberg u
 
 ![](https://raw.githubusercontent.com/Schlaubischlump/Mensa/master/Screenshots/mac.png) 
 
-For more information check out [the github repository](https://schlaubischlump.github.io/Mensa/).
-
 ### iPadOS
 
 ![](https://raw.githubusercontent.com/Schlaubischlump/Mensa/master/Screenshots/iPad.jpeg)
@@ -38,3 +36,5 @@ For more information check out [the github repository](https://schlaubischlump.g
 
 | ![](https://raw.githubusercontent.com/Schlaubischlump/Mensa/master/Screenshots/widget_small.png) | ![](https://raw.githubusercontent.com/Schlaubischlump/Mensa/master/Screenshots/widget_large.png) |
 |---|---|
+
+For more information check out [the github repository](https://schlaubischlump.github.io/Mensa/).
