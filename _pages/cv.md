@@ -11,30 +11,38 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* 2014 - Abitur, Max-Planck-Gymnasium, Trier
+* 2018 - B.Sc. Computer Science, Johannes Gutenberg-University, Mainz (PyAug – 2D & 3D Image Augmentation for Deep Learning)
+* 2021 - M.Sc Computer Science with focus Mathematics (JMPP / RETP - Privilege Escalation from User Space by Extending the X86 ISA)
+* 2022 - PhD candidate at the Programming Languages work group at the JGU
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* 2016-2020 (with breaks): Research Assistant
+  * JGU Mainz
+  * Duties included: Teaching
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* 2021-2022: Computer Scientist (medical informatics) 
+  * University Medical Center of the Johannes Gutenberg-University Mainz
+  * Duties included: Web-Development, Integrating the ePA
+  * Supervisor: Dr. Torsten Panholzer
+
+* 2022-today: Computer Scientist (programming languages)
+  * Johannes Gutenberg-University Mainz
+  * Duties included: Research
+  * Supervisor: Prof. Dr. Sebastian Erdweg
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Languages
+	* German: Native
+	* English: Advanced Level
+* Programming languages:
+  * Swift
+  * Objective-C(++)
+  * Python
+  * Java
+  * C(++)
 
 Publications
 ======
@@ -42,6 +50,7 @@ Publications
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
+<!--
 Talks
 ======
   <ul>{% for post in site.talks %}
@@ -57,3 +66,4 @@ Teaching
 Service and leadership
 ======
 * Currently signed in to 43 different slack teams
+-->
