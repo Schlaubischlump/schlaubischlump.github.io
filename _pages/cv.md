@@ -27,7 +27,7 @@ Work experience
   * Duties included: Web-Development, Integrating the ePA
   * Supervisor: Dr. Torsten Panholzer
 
-* 2022-today: Computer Scientist (programming languages)
+* 2022-Today: Computer Scientist (programming languages)
   * Johannes Gutenberg-University Mainz
   * Duties included: Research
   * Supervisor: Prof. Dr. Sebastian Erdweg
