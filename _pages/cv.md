@@ -14,7 +14,7 @@ Education
 * 2014 - Abitur, Max-Planck-Gymnasium, Trier
 * 2018 - B.Sc. Computer Science, Johannes Gutenberg-University, Mainz (PyAug – 2D & 3D Image Augmentation for Deep Learning)
 * 2021 - M.Sc Computer Science with focus Mathematics (JMPP / RETP - Privilege Escalation from User Space by Extending the X86 ISA)
-* 2022 - PhD candidate at the Programming Languages work group at the JGU
+* Today - PhD candidate at the Programming Languages work group at the JGU
 
 Work experience
 ======
