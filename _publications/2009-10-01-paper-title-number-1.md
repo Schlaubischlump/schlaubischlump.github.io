@@ -1,0 +1,15 @@
+---
+title: "Simurgh: a fully decentralized and secure NVMM user space file system"
+collection: publications
+permalink: /publication/2021-11-01-simurgh
+excerpt: 'The availability of non-volatile main memory (NVMM) has started a new era for storage systems and NVMM specific file systems can support extremely high data and metadata rates, which are required by many HPC and data-intensive applications. Scaling metadata performance within NVMM file systems is nevertheless often restricted by the Linux kernel storage stack, while simply moving metadata management to the user space can compromise security or flexibility.
+This paper introduces Simurgh, a hardware-assisted user space file system with decentralized metadata management that allows secure metadata updates from within user space. Simurgh guarantees consistency, durability, and ordering of updates without sacrificing scalability. Security is enforced by only allowing NVMM access from protected user space functions, which can be implemented through two proposed instructions. Comparisons with other NVMM file systems show that Simurgh improves metadata performance up to 18x and application performance up to 89% compared to the second-fastest file system.'
+date: 2021-11-01
+venue: 'SC21'
+paperurl: 'https://dl.acm.org/doi/abs/10.1145/3458817.3476180'
+citation: 'Nafiseh Moti, Frederic Schimmelpfennig, Reza Salkhordeh, David Klopp, Toni Cortes, Ulrich Rückert, André Brinkmann. (2021). &quot;Simurgh: a fully decentralized and secure NVMM user space file system.&quot; <i> SC21 </i>. 1(1).'
+---
+The availability of non-volatile main memory (NVMM) has started a new era for storage systems and NVMM specific file systems can support extremely high data and metadata rates, which are required by many HPC and data-intensive applications. Scaling metadata performance within NVMM file systems is nevertheless often restricted by the Linux kernel storage stack, while simply moving metadata management to the user space can compromise security or flexibility.
+This paper introduces Simurgh, a hardware-assisted user space file system with decentralized metadata management that allows secure metadata updates from within user space. Simurgh guarantees consistency, durability, and ordering of updates without sacrificing scalability. Security is enforced by only allowing NVMM access from protected user space functions, which can be implemented through two proposed instructions. Comparisons with other NVMM file systems show that Simurgh improves metadata performance up to 18x and application performance up to 89% compared to the second-fastest file system.
+
+[Download paper here](https://salkhordeh.de/files/pdfs/simurgh-sc2021.pdf)
