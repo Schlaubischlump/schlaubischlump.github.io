@@ -29,7 +29,7 @@ Work experience
 
 * 2022-Today: Computer Scientist (programming languages)
   * Johannes Gutenberg-University Mainz
-  * Duties included: Research
+  * Duties included: PhD candidate
   * Supervisor: Prof. Dr. Sebastian Erdweg
   
 Skills
