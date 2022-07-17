@@ -13,28 +13,7 @@ collection: portfolio
 
 This application is only useful if you study or work at the Johannes Gutenberg university of Mainz (JGU). This application shows you the menu for every canteen on the campus. The app is compatible with iPhone, iPad, watchOS and mac. It includes a widget in different sizes to show you the menu for a specific canteen, counter and even allows you to filter out all none vegan options.
 
-
-### macOS
-
 ![](https://raw.githubusercontent.com/Schlaubischlump/Mensa/master/Screenshots/mac.png) 
 
-### iPadOS
 
-![](https://raw.githubusercontent.com/Schlaubischlump/Mensa/master/Screenshots/iPad.jpeg)
-
-### iOS
-
-| ![](https://raw.githubusercontent.com/Schlaubischlump/Mensa/master/Screenshots/iPhone_list.png) | ![](https://raw.githubusercontent.com/Schlaubischlump/Mensa/master/Screenshots/iPhone_menu.png) |
-|---|---|
-
-### watchOS
-
-| ![](https://raw.githubusercontent.com/Schlaubischlump/Mensa/master/Screenshots/watch_list.png) | ![](https://raw.githubusercontent.com/Schlaubischlump/Mensa/master/Screenshots/watch_menu.png) |
-|---|---|
-
-### Widget
-
-| ![](https://raw.githubusercontent.com/Schlaubischlump/Mensa/master/Screenshots/widget_small.png) | ![](https://raw.githubusercontent.com/Schlaubischlump/Mensa/master/Screenshots/widget_large.png) |
-|---|---|
-
-For more information check out [the github repository](https://schlaubischlump.github.io/Mensa/).
+For more information check out [the github repository](https://github.com/Schlaubischlump/Mensa/).
