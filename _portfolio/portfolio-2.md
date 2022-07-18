@@ -1,29 +1,29 @@
 ---
-title: "shairport-metadatareader-python"
-excerpt: "A shairport-metadata-reader package written in Python, which supports reading the metadata from the pipe file, the UDP-server and the MQTT server if configured."
+title: "SuggestionPopup"
+excerpt: "A simple AppKit suggestion / autocompletion popup for macOS.<br/><img style='width: 500px;' src='https://raw.githubusercontent.com/Schlaubischlump/SuggestionPopup/master/screenshot.png'>"
 collection: portfolio
 ---
 
-This python (>= 2.7 or >= 3.4) library includes a package shairportmetadatareader which parses the airplay metadata from the shairport-sync pipe, the specified shairport-sync udp server or the shairport-sync mqtt server. In addition, it includes a remote sub-package to remotely control the Airplay client.
+[![License: GNU General Public License version 3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://opensource.org/licenses/gpl-3.0) 
 
-## Example to read metadata
-```Python
-from time import sleep
-from shairportmetadatareader import AirplayUDPListener #, AirplayPipeListener
+This is a suggestion popup implementation similar to the one used by the Maps.app on macOS 10.15. It is provided under the GNU Lesser General Public License v3.0. I only tested it on macOS 10.15, 11.0. MacOS 10.13-10.14 could work. I will test this in the future and make it compatible, if required. This software is still in beta.
 
-def on_track_info(lis, info):
-    """
-    Print the current track information.
-    :param lis: listener instance
-    :param info: track information
-    """
-    print(info)
+![](https://raw.githubusercontent.com/Schlaubischlump/SuggestionPopup/master/screenshot.png) 
 
-listener = AirplayUDPListener() # You can use AirplayPipeListener or AirplayMQTTListener
-listener.bind(track_info=on_track_info) # receive callbacks for metadata changes
-listener.start_listening() # read the data asynchronously from the udp server
-sleep(60) # receive data for 60 seconds
-listener.stop_listening()
+A Simple location search can be implemented using the following code:
+
+``` Swift
+// Keep a reference to the search completer in memory.
+var searchCompleter: LocationSearchCompleter!
+...
+// Somewhere in your constructor create a LocationSearchCompleter with 
+// your textField. You can still use the textField delegate !
+self.searchCompleter = LocationSearchCompleter(searchField: searchField)
+self.searchCompleter.onShow = { ... }
+self.searchCompleter.onHide = { ... }
+self.searchCompleter.onHighlight = { ... }
+self.searchCompleter.onSelect = { ... }
 ```
 
-For more information check out [the github page](https://github.com/Schlaubischlump/shairport-metadatareader-python).
+
+For more information check out [the github repository](https://github.com/Schlaubischlump/SuggestionPopup).

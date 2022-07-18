@@ -1,19 +1,29 @@
 ---
-title: "Mensa"
-excerpt: "watchOS / iOS / iPadOS / macOS app for the food menu of the Johannes-Gutenberg-University (JGU) Mainz.<br/><img style='width: 500px;' src='https://raw.githubusercontent.com/Schlaubischlump/Mensa/master/Screenshots/mac.png'>"
+title: "shairport-metadatareader-python"
+excerpt: "A shairport-metadata-reader package written in Python, which supports reading the metadata from the pipe file, the UDP-server and the MQTT server if configured."
 collection: portfolio
 ---
 
-[![License: GNU General Public License version 3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://opensource.org/licenses/gpl-3.0) 
+This python (>= 2.7 or >= 3.4) library includes a package shairportmetadatareader which parses the airplay metadata from the shairport-sync pipe, the specified shairport-sync udp server or the shairport-sync mqtt server. In addition, it includes a remote sub-package to remotely control the Airplay client.
 
-<div align="center">
-  <img src="https://raw.githubusercontent.com/Schlaubischlump/Mensa/master/Mensa/Assets.xcassets/AppIcon.appiconset/icon-1027.png" width="128px">
-  <h2 align="center">Mensa</h2>
-</div>
+## Example to read metadata
+```Python
+from time import sleep
+from shairportmetadatareader import AirplayUDPListener #, AirplayPipeListener
 
-This application is only useful if you study or work at the Johannes Gutenberg university of Mainz (JGU). This application shows you the menu for every canteen on the campus. The app is compatible with iPhone, iPad, watchOS and mac. It includes a widget in different sizes to show you the menu for a specific canteen, counter and even allows you to filter out all none vegan options.
+def on_track_info(lis, info):
+    """
+    Print the current track information.
+    :param lis: listener instance
+    :param info: track information
+    """
+    print(info)
 
-![](https://raw.githubusercontent.com/Schlaubischlump/Mensa/master/Screenshots/mac.png) 
+listener = AirplayUDPListener() # You can use AirplayPipeListener or AirplayMQTTListener
+listener.bind(track_info=on_track_info) # receive callbacks for metadata changes
+listener.start_listening() # read the data asynchronously from the udp server
+sleep(60) # receive data for 60 seconds
+listener.stop_listening()
+```
 
-
-For more information check out [the github repository](https://github.com/Schlaubischlump/Mensa/).
+For more information check out [the github page](https://github.com/Schlaubischlump/shairport-metadatareader-python).
