@@ -4,7 +4,7 @@ excerpt: "A simple AppKit suggestion / autocompletion popup for macOS.<br/><img 
 collection: portfolio
 ---
 
-[![License: GNU General Public License version 3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://opensource.org/licenses/gpl-3.0) 
+[![License: GNU Affero General Public license version 3](https://img.shields.io/badge/License-LGPLv3-blue.svg)](https://opensource.org/licenses/lgpl-3.0)
 
 This is a suggestion popup implementation similar to the one used by the Maps.app on macOS 10.15. It is provided under the GNU Lesser General Public License v3.0. I only tested it on macOS 10.15, 11.0. MacOS 10.13-10.14 could work. I will test this in the future and make it compatible, if required. This software is still in beta.
 
