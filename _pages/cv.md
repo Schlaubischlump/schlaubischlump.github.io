@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+title: "Curriculum Vitae"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -12,9 +12,10 @@ redirect_from:
 Education
 ======
 * 2014 - Abitur, Max-Planck-Gymnasium, Trier
-* 2018 - B.Sc. Computer Science, Johannes Gutenberg-University, Mainz (PyAug – 2D & 3D Image Augmentation for Deep Learning)
-* 2021 - M.Sc Computer Science with focus Mathematics, Johannes Gutenberg-University, Mainz (JMPP / RETP - Privilege Escalation from User Space by Extending the X86 ISA)
+* 2018 - B.Sc. Computer Science, Johannes Gutenberg-University, Mainz (**Thesis**: PyAug – 2D & 3D Image Augmentation for Deep Learning)
+* 2021 - M.Sc Computer Science with focus Mathematics, Johannes Gutenberg-University, Mainz (**Thesis**: JMPP / RETP - Privilege Escalation from User Space by Extending the X86 ISA)
 * 2022 - PhD candidate at the Programming Languages work group at the JGU
+
 
 Work experience
 ======
@@ -29,7 +30,7 @@ Work experience
 
 * 2022-Today: Computer Scientist (programming languages)
   * Johannes Gutenberg-University Mainz
-  * Duties included: PhD candidate
+  * Duties included: Research, Teaching
   * Supervisor: Prof. Dr. Sebastian Erdweg
   
 Skills
@@ -38,12 +39,13 @@ Skills
 	* German: Native
 	* English: Advanced Level
 * Programming languages:
-  * Swift
-  * Objective-C(++)
-  * Python
   * Scala
+  * Swift
+  * Objective-C
+  * Python
   * Java
-  * C(++)
+  * C++
+  * C
 
 Publications
 ======
@@ -66,5 +68,5 @@ Teaching
   
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* 
 -->
